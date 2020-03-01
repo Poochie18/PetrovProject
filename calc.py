@@ -20,10 +20,9 @@ class Calculator:
     def simply(self,b):
         return LCM.lcm(self, b)
 try:
-    a = Calculator(2, 7)
-    c = Calculator(1, 4)
+    a = Calculator(0, 2)
+    c = Calculator(1,3)
     res = Calculator.add(a,c)
-    print(Calculator.simply(a,c))
 except:
     print('Zero')
 
